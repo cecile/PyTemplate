@@ -1,0 +1,8 @@
+{
+  "output_path" : "output",
+  "templates_path" : "templates",
+  "template_name" : "SpringBoot",
+  "variables" :  {
+    "application" : "Demo"
+  }
+}

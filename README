@@ -1,0 +1,24 @@
+The script will copy the folder structure and files into
+ the output directory.
+
+Configuration is a JSON file, by default PyTemplate.json
+
+You could change JSON as input parameter:
+
+ $ python PyTemplate.py file.json
+
+All paths are relative to the JSON file location
+
+Folders and files could have __var__ in the names
+
+The files could use template variables as {{var}}
+ templates could use Handlebars.js like syntax
+ more details in: https://github.com/wbond/pybars3
+
+There is a couple of helpers:
+ {{lower var}} for lowercase variable content
+ {{upper var}} for uppercase variable content
+
+This could be use in the file names and paths:
+ __lower var__
+ __upper var__
